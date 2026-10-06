@@ -1,0 +1,196 @@
+{
+  "platform": "supergrafx",
+  "started_at": "2026-10-06T13:15:51.779862+00:00",
+  "engine_version": "4.0.0",
+  "dat_sets": [
+    {
+      "id": 1,
+      "name": "NEC - PC Engine SuperGrafx (Parent-Clone)",
+      "version": "20250913-112105"
+    }
+  ],
+  "completed_stages": [
+    "dat_import",
+    "rom_import",
+    "scan_diff_catalog",
+    "nointro",
+    "packages",
+    "retroachievements",
+    "game_names"
+  ],
+  "rom_import": {
+    "directories": [
+      "/mnt/MyShare/No-Intro/NEC - PC Engine SuperGrafx",
+      "/mnt/MyShare/No-Intro/NEC - PC Engine SuperGrafx (Aftermarket)"
+    ],
+    "families": 6,
+    "family_assignment": {
+      "family_from_dat_or_db": 10
+    },
+    "errors": [],
+    "groups": 1,
+    "raw_group_bytes": 4325376,
+    "stored_group_bytes": 2301933,
+    "zips": 10,
+    "sidecar_files": 0,
+    "seconds": 2
+  },
+  "scan": {
+    "1": {
+      "match": 6,
+      "mismatch": 0,
+      "unverifiable": 0,
+      "no_candidate": 0
+    }
+  },
+  "dat_diff": {},
+  "catalog": {
+    "games": 6,
+    "releases": 6,
+    "old_dat_games_linked": 0,
+    "rom_release_links": 6
+  },
+  "nointro": {
+    "snapshot_id": 1,
+    "version": "unknown",
+    "archives": 7,
+    "files": 7,
+    "files_with_local_payload": 6,
+    "sources": 12,
+    "dumplog_rows": 6,
+    "dat_links": 6,
+    "archive_release_links": 6,
+    "hardware_assertions": 0,
+    "dumplog_status": {
+      "unverified": 1,
+      "trusted_unverified": 5
+    },
+    "anomalies": {}
+  },
+  "packages": {
+    "packages_by_dat_set": {
+      "1": 6
+    },
+    "errors": []
+  },
+  "retroachievements": {
+    "snapshot_id": 1,
+    "console_id": 8,
+    "fetched_at": "2026-10-06T13:15:55.714131+00:00",
+    "games": 352,
+    "hashes": 469,
+    "games_with_achievements": 142,
+    "hashes_of_games_with_achievements": 237,
+    "local_roms_matched": 3,
+    "ra_games_with_local_rom": 3,
+    "dat_entries_matched": 3,
+    "ra_games_in_any_dat": 3,
+    "hashes_with_achievements_unexplained": 234,
+    "by_category_local": {
+      "Official": 3
+    }
+  },
+  "game_names": {
+    "source_name": "NEC - PC Engine SuperGrafx.csv",
+    "source_sha256": "ecd62a0413bf44a38dbd6becb931c1c8fb9c82c941dac219ea1f0192782f5439",
+    "normalization_version": "parentheses-whitespace-casefold-v1",
+    "import_id": 1,
+    "matching_version": "game-qualified-title-v1",
+    "rows": 5,
+    "rows_with_chinese": 5,
+    "unique_chinese_names": 5,
+    "normalized_titles": 5,
+    "matched_rows": 5,
+    "matched_rows_with_chinese": 5,
+    "matched_releases": 5,
+    "releases_with_chinese": 5,
+    "matched_games": 5,
+    "matched_roms": 5,
+    "matched_links": 5,
+    "ambiguous_links": 0,
+    "ambiguous_rows": 0,
+    "unmatched_rows": 0,
+    "unresolved_rows": [],
+    "multiple_translation_keys": [],
+    "matched_rows_by_method": {
+      "exact_title": 5
+    }
+  },
+  "audit": {
+    "integrity_check": [
+      "ok"
+    ],
+    "foreign_key_errors": [],
+    "objects_checked": 9,
+    "archive_plans_checked": 13,
+    "compression_groups_checked": 1,
+    "historical_zip_objects": 13,
+    "ok": true,
+    "errors": []
+  },
+  "stats": {
+    "counts": {
+      "files": 32,
+      "objects": 22,
+      "chunks": 36,
+      "roms": 6,
+      "dat_sets": 1,
+      "dat_roms": 6,
+      "transformations": 0,
+      "packages": 6,
+      "media": 0
+    },
+    "storage": {
+      "logical_content_bytes": 4337336,
+      "historical_zip_bytes_not_stored": 4397780,
+      "unique_raw_chunk_bytes": 4337336,
+      "stored_chunk_bytes": 2305342,
+      "header_body_recipes": 0,
+      "zip_plans": 13,
+      "file_occurrences": 32,
+      "catalog_objects": 22
+    },
+    "dat_coverage": [
+      {
+        "dat_set_id": 1,
+        "status": "matched",
+        "count": 6
+      }
+    ],
+    "codecs": [
+      {
+        "codec": "group",
+        "blocks": 33,
+        "raw_bytes": 4325376,
+        "stored_bytes": 0
+      },
+      {
+        "codec": "lzma",
+        "blocks": 2,
+        "raw_bytes": 10798,
+        "stored_bytes": 2936
+      },
+      {
+        "codec": "zlib",
+        "blocks": 1,
+        "raw_bytes": 1162,
+        "stored_bytes": 473
+      }
+    ],
+    "storage_schema_version": 4,
+    "compression_groups": {
+      "groups": 1,
+      "raw_bytes": 4325376,
+      "stored_bytes": 2301933
+    },
+    "platform": "supergrafx",
+    "solid_groups": {
+      "groups": 1,
+      "raw_bytes": 4325376,
+      "stored_bytes": 2301933
+    }
+  },
+  "finished_at": "2026-10-06T13:15:56.065761+00:00",
+  "seconds": 6,
+  "database_bytes": 5718016
+}

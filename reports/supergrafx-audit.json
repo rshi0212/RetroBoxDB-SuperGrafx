@@ -1,0 +1,14 @@
+{
+ "db": "SuperGrafx",
+ "ok": true,
+ "seconds": 0,
+ "integrity_check": [
+  "ok"
+ ],
+ "foreign_key_errors": [],
+ "objects_checked": 10,
+ "archive_plans_checked": 14,
+ "compression_groups_checked": 1,
+ "historical_zip_objects": 14,
+ "errors": []
+}
